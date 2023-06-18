@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/avo-2-0"
+                "PYTHONPATH": "${workspaceFolder}/avo-2-0" // path to your code's root
             }
         },
         {
@@ -22,7 +22,7 @@
             "module": "avo.algorithms.runners.single_configuration", // logical path to the specific module
             "justMyCode": false,
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/avo-2-0"
+                "PYTHONPATH": "${workspaceFolder}/avo-2-0" // path to your code's root
             }
         }
     ]
