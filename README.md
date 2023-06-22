@@ -6,5 +6,5 @@ Create soft links:
 **Windows:** `mklink my_vscode_setup\launch.json .vscode\launch.json`
 
 1. path to settings.json in Git repo --> path to settings.json in .vscode folder:  
-**Linux:** `ln -s my_vscode_setup/launch.json .vscode/settings.json`  
-**Windows:** `mklink my_vscode_setup\launch.json .vscode\settings.json`
+**Linux:** `ln -s my_vscode_setup/settings.json .vscode/settings.json`  
+**Windows:** `mklink my_vscode_setup\settings.json .vscode\settings.json`
