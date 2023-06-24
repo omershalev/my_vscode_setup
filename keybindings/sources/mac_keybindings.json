@@ -1,0 +1,147 @@
+[
+    {
+        "key": "alt+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "isMac && editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "alt+space",
+        "command": "focusSuggestion",
+        "when": "isMac && suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "alt+space",
+        "command": "toggleSuggestionDetails",
+        "when": "isMac && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer",
+        "when": "isMac && viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.view.scm",
+        "when": "isMac && workbench.scm.active"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.view.debug",
+        "when": "isMac && viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.view.extensions",
+        "when": "isMac && viewContainer.workbench.view.extensions.enabled"
+    },
+    {
+        "key": "cmd+9",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.terminal.focus",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.duplicateSelection",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "notebook.cell.execute",
+        "when": "isMac && notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "cmd+g",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+k cmd+9",
+        "command": "-editor.unfoldAllMarkerRegions",
+        "when": "isMac && editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+k cmd+9",
+        "command": "editor.unfoldAll",
+        "when": "isMac && editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+k cmd+j",
+        "command": "-editor.unfoldAll",
+        "when": "isMac && editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+y",
+        "command": "redo",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+alt+space",
+        "command": "toggleSuggestionFocus",
+        "when": "isMac && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.debug.action.toggleRepl",
+        "when": "isMac && workbench.panel.repl.view.active"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "editor.debug.action.selectionToRepl",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "isMac && inDebugMode"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "workbench.action.terminal.openDetectedLink",
+        "when": "isMac && terminalFocus && terminalHasBeenCreated"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "workbench.action.output.toggleOutput",
+        "when": "isMac && workbench.panel.output.active"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "-rerunSearchEditorSearch",
+        "when": "isMac && inSearchEditor"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.gotoSymbol",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "isMac && terminal.active"
+    },
+    {
+        "key": "shift+cmd+w",
+        "command": "workbench.action.reopenClosedEditor",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+x",
+        "command": "-workbench.view.extensions",
+        "when": "isMac && viewContainer.workbench.view.extensions.enabled"
+    },
+    {
+        "key": "shift+cmd+y",
+        "command": "-workbench.debug.action.toggleRepl",
+        "when": "isMac && workbench.panel.repl.view.active"
+    },
+    {
+        "key": "shift+cmd+z",
+        "command": "-redo",
+        "when": "isMac"
+    }
+]

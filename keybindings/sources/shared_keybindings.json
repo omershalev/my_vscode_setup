@@ -1,0 +1,323 @@
+[
+    {
+        "key": "0 0",
+        "command": "jupyter.notebookeditor.restartkernel",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "0 0",
+        "command": "jupyter.restartkernel",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+2",
+        "command": "-workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "alt+3",
+        "command": "-workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "alt+4",
+        "command": "-workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "alt+5",
+        "command": "-workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "alt+6",
+        "command": "-workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "alt+7",
+        "command": "-workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "alt+8",
+        "command": "-workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "alt+9",
+        "command": "-workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "c l",
+        "command": "notebook.clearAllCellsOutputs",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-numberedBookmarks.jumpToBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-numberedBookmarks.jumpToBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-numberedBookmarks.jumpToBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+4",
+        "command": "-numberedBookmarks.jumpToBookmark4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+5",
+        "command": "-numberedBookmarks.jumpToBookmark5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+6",
+        "command": "-numberedBookmarks.jumpToBookmark6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+7",
+        "command": "-numberedBookmarks.jumpToBookmark7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+8",
+        "command": "-numberedBookmarks.jumpToBookmark8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+9",
+        "command": "-numberedBookmarks.jumpToBookmark9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "numberedBookmarks.jumpToBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "numberedBookmarks.jumpToBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "numberedBookmarks.jumpToBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "numberedBookmarks.jumpToBookmark4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "numberedBookmarks.jumpToBookmark5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "numberedBookmarks.jumpToBookmark6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "numberedBookmarks.jumpToBookmark7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "numberedBookmarks.jumpToBookmark8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "numberedBookmarks.jumpToBookmark9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+alt+cmd+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+1",
+        "command": "numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "-workbench.action.terminal.sendSequence",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+3",
+        "command": "numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+4",
+        "command": "numberedBookmarks.toggleBookmark4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "numberedBookmarks.toggleBookmark5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+6",
+        "command": "numberedBookmarks.toggleBookmark6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "numberedBookmarks.toggleBookmark7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+8",
+        "command": "numberedBookmarks.toggleBookmark8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+9",
+        "command": "numberedBookmarks.toggleBookmark9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.run"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f6",
+        "command": "-workbench.action.debug.pause",
+        "when": "debugState == 'running'"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "shift+cmd+1",
+        "command": "-numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+2",
+        "command": "-numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+3",
+        "command": "-numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+4",
+        "command": "-numberedBookmarks.toggleBookmark4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+5",
+        "command": "-numberedBookmarks.toggleBookmark5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+6",
+        "command": "-numberedBookmarks.toggleBookmark6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+7",
+        "command": "-numberedBookmarks.toggleBookmark7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+8",
+        "command": "-numberedBookmarks.toggleBookmark8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+9",
+        "command": "-numberedBookmarks.toggleBookmark9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.runcurrentcelladvance",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !notebookEditorFocused"
+    },
+    {
+        "key": "shift+f5",
+        "command": "workbench.action.debug.start"
+    },
+    {
+        "key": "shift+f5",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+f6",
+        "command": "-workbench.action.focusPreviousPart"
+    },
+    {
+        "key": "shift+f6",
+        "command": "editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    }
+]
