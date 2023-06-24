@@ -1,0 +1,8 @@
+{
+    "window.autoDetectColorScheme": false,
+    "workbench.colorTheme": "Solarized Dark",
+
+    "python.analysis.extraPaths": ["${workspaceFolder}/avo-2-0"],
+    "jupyter.notebookFileRoot": "${workspaceFolder}/avo-2-0",
+    "tabnine.useProxySupport": true,
+}

@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.inheritEnv": false,
+    "git.confirmSync": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "files.autoSave": "afterDelay",
+    "python.terminal.executeInFileDir": true,
+    "python.analysis.typeCheckingMode": "off",
+    "notebook.lineNumbers": "on",
+    "jupyter.askForKernelRestart": false,
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.preferredLightColorTheme": "Abyss",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.zoomLevel": 1,
+    "tabnine.experimentalAutoImports": true,
+    "settingsSync.keybindingsPerPlatform": false,
+    "tabnine.debounceMilliseconds": 500,
+    "debug.toolBarLocation": "docked",
+}
