@@ -22,4 +22,4 @@
 
 ## Notes:
 1. On Windows, run `mklink` commands from "Command Prompt" (in "PowerShell", the tool is not installed by default).
-2. When working on WSL, address to the "Windows" section for **user** links and "Mac/Linux" section for **workspace** links.
+2. When working on WSL, address to the "Windows" section for **user** links and "Mac/Linux" section for **workspace** links (run the commands in WSL prompt).
