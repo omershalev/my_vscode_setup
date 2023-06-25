@@ -10,7 +10,7 @@
 
 * Full path to workspace settings.json in Git clone --> path to settings.json in .vscode folder, e.g.:  
 **Mac/Linux:** `ln -s ~/CodingArea/avo_workspace/my_vscode_setup/workspace_specific_settings/avo_settings.json .vscode/settings.json`  
-**Windows:** `mklink .vscode\settings.json D:\CodingArea\push_objects_ws\my_vscode_setup\settings.json`
+**Windows:** `mklink .vscode\settings.json D:\CodingArea\push_objects_ws\my_vscode_setup\workspace_specific_settings\push_objects_settings.json`
 
 3. Soft links - **user**:
 * Full path to user settings file in Git clone --> path to settings.json in user area, e.g.:  
