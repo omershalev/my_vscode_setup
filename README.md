@@ -18,6 +18,7 @@
 **Windows:** `mklink C:\Users\omers\AppData\Roaming\Code\User\settings.json \\wsl$\Ubuntu\home\omer\push_objects_ws\my_vscode_setup\user_settings.json` (requires Command Prompt in elavated mode)
   
 * Full path to keybindings.json file in Git clone --> path to keybindings.json in user area, e.g.:  
+**Mac:** `ln -s ~/CodingArea/avo_workspace/my_vscode_setup/keybindings/keybindings.json /Users/omershal/Library/Application\ Support/Code/User/keybindings.json`
 **Windows:** `mklink C:\Users\omers\AppData\Roaming\Code\User\keybindings.json \\wsl$\Ubuntu\home\omer\push_objects_ws\my_vscode_setup\keybindings\keybindings.json` (requires Command Prompt in elavated mode)
 
 ## Notes:

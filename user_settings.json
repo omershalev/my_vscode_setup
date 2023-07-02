@@ -21,4 +21,5 @@
     "settingsSync.keybindingsPerPlatform": false,
     "tabnine.debounceMilliseconds": 500,
     "debug.toolBarLocation": "docked",
+    "python.analysis.autoImportCompletions": true,
 }
