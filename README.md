@@ -24,3 +24,4 @@
 ## Notes:
 1. On Windows, run `mklink` commands from "Command Prompt" (in "PowerShell", the tool is not installed by default).
 2. When working on WSL, address to the "Windows" section for **user** links and "Mac/Linux" section for **workspace** links (run the commands in WSL prompt).
+3. In the case of multiple workspaces (and multiple clones of this repo) on a single machine, **User** soft links should be done only once - it is recommended to link the clone in the most frequently used workspace.
