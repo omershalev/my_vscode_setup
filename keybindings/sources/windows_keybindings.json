@@ -2,22 +2,22 @@
     {
         "key": "alt+1",
         "command": "workbench.view.explorer",
-        "when": "viewContainer.workbench.view.explorer.enabled"
+        "when": "!isMac && viewContainer.workbench.view.explorer.enabled"
     },
     {
         "key": "alt+2",
         "command": "workbench.view.scm",
-        "when": "workbench.scm.active"
+        "when": "!isMac && workbench.scm.active"
     },
     {
         "key": "alt+3",
         "command": "workbench.view.debug",
-        "when": "viewContainer.workbench.view.debug.enabled"
+        "when": "!isMac && viewContainer.workbench.view.debug.enabled"
     },
     {
         "key": "alt+4",
         "command": "workbench.view.extensions",
-        "when": "viewContainer.workbench.view.extensions.enabled"
+        "when": "!isMac && viewContainer.workbench.view.extensions.enabled"
     },
     {
         "key": "ctrl+9",
