@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "Python: specific module",
+            "name": "Python: Specific Module",
             "type": "python",
             "request": "launch",
             "module": "avo.algorithms.runners.single_configuration", // logical path to the specific module
