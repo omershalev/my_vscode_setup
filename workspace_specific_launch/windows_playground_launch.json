@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File (playground_misc)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Python: Specific Module (playground_misc)",
+            "type": "python",
+            "request": "launch",
+            "module": "playground_misc.scratchpad", // logical path to the specific module
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Python: Current File (mujoco_playground)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/mujoco"
+            }
+        },
+        {
+            "name": "Python: Specific Module (mujoco_playground)",
+            "type": "python",
+            "request": "launch",
+            "module": "playground_misc.scratchpad", // logical path to the specific module
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/mujoco"
+            }
+        }
+    ]
+}
