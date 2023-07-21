@@ -1,0 +1,9 @@
+{
+    "window.autoDetectColorScheme": false,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+
+    "python.analysis.extraPaths": ["${workspaceFolder}/my_python_project_skeleton",
+                                   "${workspaceFolder}/my_utils"
+                                  ],
+    "jupyter.notebookFileRoot": "${workspaceFolder}/my_python_project_skeleton",
+}
