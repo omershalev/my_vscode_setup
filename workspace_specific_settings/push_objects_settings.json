@@ -1,6 +1,6 @@
 {
     "window.autoDetectColorScheme": false,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Tomorrow Night Blue",
 
     "python.analysis.extraPaths": ["${workspaceFolder}/rlpybullet"],
     "jupyter.notebookFileRoot": "${workspaceFolder}/rlpybullet",

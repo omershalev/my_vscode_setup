@@ -12,17 +12,17 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/avo-2-0" // path to your code's root
+                "PYTHONPATH": "${workspaceFolder}/rlpybullet" // path to your code's root
             }
         },
         {
             "name": "Python: Specific Module",
             "type": "python",
             "request": "launch",
-            "module": "avo.algorithms.runners.single_configuration", // logical path to the specific module
+            "module": "push_objects_to_bounds.runner", // logical path to the specific module
             "justMyCode": false,
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/avo-2-0" // path to your code's root
+                "PYTHONPATH": "${workspaceFolder}/rlpybullet" // path to your code's root
             }
         }
     ]
