@@ -20,6 +20,9 @@ if __name__ == '__main__':
     target_settings_path = os.path.join(dot_vscode_path, 'settings.json')
     target_launch_path = os.path.join(dot_vscode_path, 'launch.json')
 
+    if not os.path.exists(dot_vscode_path):
+        print (f'First, create the .vscode folder {dot_vscode_path}, only then rerun the script')
+        sys.exit(0)
 
     if system == 'Windows':
         print ('Run the below commands on elevated Command Prompt:')
