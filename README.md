@@ -23,6 +23,7 @@
 **Mac:** `ln -s ~/CodingArea/playground_ws/my_vscode_setup/keybindings/keybindings.json /Users/omershal/Library/Application\ Support/Code/User/keybindings.json`  
 **Windows:** `mklink C:\Users\omers\AppData\Roaming\Code\User\keybindings.json D:\OneDrive\CodingArea\playground_ws\my_vscode_setup\keybindings\keybindings.json` (requires Command Prompt in elavated mode)
 
+4. Xserver config (WSL): create a shortcut to `WSL_Xserver_launch.xlaunch` in the `Startup` folder (`Win + R` --> `shell:startup`).
 ## Notes:
 1. On Windows, run `mklink` commands from "Command Prompt" (in "PowerShell", the tool is not installed by default).
 2. When working on WSL, address to the "Windows" section for **user** links and "Mac/Linux" section for **workspace** links (run the commands in WSL prompt).
