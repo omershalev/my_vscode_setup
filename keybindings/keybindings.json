@@ -45,6 +45,11 @@
         "when": "!isMac && notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
     },
     {
+        "key": "ctrl+alt+win+enter",
+        "command": "notebook.execute",
+        "when": "!isMac"
+    },
+    {
         "key": "ctrl+g",
         "command": "editor.action.nextMatchFindAction",
         "when": "!isMac"
@@ -198,6 +203,11 @@
         "key": "cmd+enter",
         "command": "notebook.cell.execute",
         "when": "isMac && notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+alt+cmd+enter",
+        "command": "notebook.execute",
+        "when": "isMac"
     },
     {
         "key": "cmd+g",
